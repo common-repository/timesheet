@@ -1,0 +1,2336 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Timesheet by BestWebSoft\n"
+"POT-Creation-Date: 2024-09-12 14:33+0300\n"
+"PO-Revision-Date: 2024-09-12 14:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: timesheet.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: bws_menu\n"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:52 timesheet.php:85 timesheet.php:464
+#: timesheet.php:2048 timesheet.php:2068
+msgid "Settings"
+msgstr "設定"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:53
+msgid "Display"
+msgstr "画面"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:54
+msgid "Reminders"
+msgstr "リマインダー"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:56
+msgid "Reports"
+msgstr "レポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:60
+msgid "Import / Export"
+msgstr "インポート・エクスポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:63
+msgid "Misc"
+msgstr "その他"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:64
+msgid "License Key"
+msgstr "ライセンスキー"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:82
+msgid "Mon"
+msgstr "月"
+
+#: includes/class-tmsht-settings.php:82
+msgid "Tue"
+msgstr "火"
+
+#: includes/class-tmsht-settings.php:82
+msgid "Wed"
+msgstr "水"
+
+#: includes/class-tmsht-settings.php:82
+msgid "Thu"
+msgstr "木"
+
+#: includes/class-tmsht-settings.php:82
+msgid "Fri"
+msgstr "金"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:82
+msgid "Sat"
+msgstr "土"
+
+#: includes/class-tmsht-settings.php:82
+msgid "Sun"
+msgstr "日"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:83
+msgid "month"
+msgstr "月"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:83
+msgid "6 month"
+msgstr "6ヶ月"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:83
+msgid "year"
+msgstr "年"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:120
+msgid "Please enter status name."
+msgstr "ステータス名を入力してください。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:125 includes/class-tmsht-settings.php:127
+msgid "Please choose status color."
+msgstr "ステータスカラーを選択してください。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:132
+#, php-format
+msgid "Status with name \"%1$s\" or with color %2$s already exists."
+msgstr "名前\"%1$s\"または色%2$sのステータスが既に存在する。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:136
+#, php-format
+msgid ""
+"The status with the color %s can not be saved. Please choose a different "
+"color."
+msgstr "色 %s のステータスは保存できません。別の色を選択してください。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:151
+msgid "Status has been successfully added."
+msgstr "ステータスが正常に追加されました。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:153 includes/class-tmsht-settings.php:156
+msgid "Status has not been added."
+msgstr "ステータスは追加されていません。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:316
+msgid "Settings saved."
+msgstr "保存された設定。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:333
+msgid "Timesheet Settings"
+msgstr "タイムシート設定"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:338
+msgid "Timeline"
+msgstr "タイムライン"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:341
+msgctxt "timeline"
+msgid "from"
+msgstr "から"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:341
+msgctxt "timeline"
+msgid "to"
+msgstr "から"
+
+#: includes/class-tmsht-settings.php:341
+msgctxt "timeline"
+msgid "hours"
+msgstr "時間"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:349
+msgid "Weekends"
+msgstr "週末"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:362 includes/class-tmsht-settings.php:403
+msgid "Statuses"
+msgstr "ステータス"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:364
+msgid "Name"
+msgstr "名前"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:367
+msgid "Add status"
+msgstr "ステータスを追加"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:372 includes/class-tmsht-settings.php:384
+#: includes/class-tmsht-settings.php:409
+msgid "Enabled"
+msgstr "有効"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:373 includes/class-tmsht-settings.php:388
+#: includes/class-tmsht-settings.php:410
+msgid "All Day"
+msgstr "一日中"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:374 includes/class-tmsht-settings.php:411
+msgctxt "Settings status table header"
+msgid "Name"
+msgstr "名前"
+
+#: includes/class-tmsht-settings.php:375 includes/class-tmsht-settings.php:394
+#: includes/class-tmsht-settings.php:412
+msgctxt "Settings status table header"
+msgid "Color"
+msgstr "色"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:391
+msgctxt "Settings legend table header"
+msgid "Name"
+msgstr "名前"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:403
+msgid "No statuses"
+msgstr "ステータスなし"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:419
+msgid "Date Format"
+msgstr "日付形式"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:426
+msgid "WordPress default"
+msgstr "ワードプレスのデフォルト"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:438
+msgid "Custom"
+msgstr "カスタム"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:449
+msgid "Documentation on date and time formatting"
+msgstr "日付と時刻のフォーマットに関するドキュメント"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:453
+msgid "Edit Overdue Timesheets"
+msgstr "期限切れのタイムシートを編集する"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:455
+msgid "Enable to allow overdue timesheets editing."
+msgstr "期限切れのタイムシートの編集を許可するために有効にします。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:470
+msgid "Reminders Settings"
+msgstr "リマインダー設定"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:475
+msgid "Email Reminder"
+msgstr "メール通知"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:479
+msgid ""
+"Enable to send an email reminder to a user if his work schedule isn't filled "
+"out."
+msgstr ""
+"ユーザーの作業スケジュールが満たされていない場合に、ユーザーにメール リマイン"
+"ダーを送信できるようにします。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:486 includes/class-tmsht-settings.php:756
+msgctxt "email reminder"
+msgid "Every"
+msgstr "毎"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:492 includes/class-tmsht-settings.php:762
+msgctxt "email reminder"
+msgid "at"
+msgstr "で"
+
+#: includes/class-tmsht-settings.php:500
+msgctxt "email reminder"
+msgid "Subject"
+msgstr "件名"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:502
+msgctxt "email reminder"
+msgid "Message"
+msgstr "メッセージ"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:505
+msgid "Allowed Variables"
+msgstr "許可された変数"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:506
+msgid "the username"
+msgstr "ユーザー名"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:507
+msgid "days that are not filled by the user"
+msgstr "ユーザーが満たさない日"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:508
+msgid "the link to TS user page in the Dashboard"
+msgstr "ダッシュボードの TS ユーザー ページへのリンク"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:509
+msgid "the link to TS user page in the Dashboard with your text"
+msgstr "ダッシュボードの TS ユーザー ページへのリンクとテキスト"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:525
+msgid "Display Settings"
+msgstr "ディスプレイの設定"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:531 timesheet.php:65 timesheet.php:586
+msgid "My Availability"
+msgstr "マイ アベイラビリティ"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:583 includes/class-tmsht-settings.php:659
+#: includes/class-tmsht-settings.php:685 includes/class-tmsht-settings.php:742
+#: includes/class-tmsht-settings.php:792 includes/class-tmsht-settings.php:877
+#: timesheet.php:664
+msgid "Close"
+msgstr "近い"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:607 timesheet.php:76 timesheet.php:1212
+msgid "Team"
+msgstr "チーム"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:689
+msgid "Edit Team"
+msgstr "チームを編集"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:734
+msgid "Reports Settings"
+msgstr "レポート設定"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:738
+msgid "Note"
+msgstr "ノート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:738
+msgid "This is your personal reports settings."
+msgstr "これは、個人レポートの設定です。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:746
+msgid "Email Reports"
+msgstr "電子メール レポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:749
+msgid "Enable to receive reports by email."
+msgstr "レポートをメールで受信できるようにします。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:767
+msgid "Include User Timesheets"
+msgstr "ユーザーのタイムシートを含める"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:769 timesheet.php:673 timesheet.php:1814
+msgid "Search user"
+msgstr "ユーザーを検索"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:787
+msgid "Import/Export"
+msgstr "インポート・エクスポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:796
+msgid "Export Data"
+msgstr "データのエクスポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:799
+msgid "CSV file format"
+msgstr "CSVファイル形式"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:800
+msgid "XML file format"
+msgstr "XML ファイル形式"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:802 timesheet.php:633
+msgid "Export"
+msgstr "輸出"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:806
+msgid "Import Data"
+msgstr "データのインポート"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:809
+msgid "Add and replace current data"
+msgstr "現在のデータの追加と置換"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:810
+msgid "Clear old and add new data"
+msgstr "古いデータを消去して新しいデータを追加する"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:811
+msgid "Add missing data"
+msgstr "不足しているデータを追加する"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:814
+msgid "Import"
+msgstr "輸入"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:818
+msgid "Export Button"
+msgstr "エクスポートボタン"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:820
+msgid "Enable to display an export button in \"My Availability\"."
+msgstr "「マイアベイラビリティ」にエクスポートボタンを表示できるようにします。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:824
+msgid "Export File Format"
+msgstr "エクスポート ファイル形式"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:828
+msgid "CSV"
+msgstr "CSV"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:832
+msgid "PDF"
+msgstr "PDF"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:852
+msgid "Clear Timesheet"
+msgstr "タイムシートをクリア"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:854
+msgid "Every"
+msgstr "毎日"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:861
+msgid "This will clear users timesheet."
+msgstr "これにより、ユーザーのタイムシートがクリアされます。"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:881
+msgid "Timesheet Shortcode"
+msgstr "タイムシートのショートコード"
+
+# automatic translation
+#: includes/class-tmsht-settings.php:884
+msgid ""
+"Add the \"My Availability\" to your pages or posts using the following "
+"shortcode:"
+msgstr ""
+"以下のショートコードを使って、あなたのページや投稿に「My Availability」を追加"
+"してください："
+
+# automatic translation
+#: includes/class-tmsht-settings.php:888
+msgid "Add the \"Team\" to your pages or posts using the following shortcode:"
+msgstr ""
+"以下のショートコードを使って、あなたのページや投稿に「チーム」を追加してくだ"
+"さい："
+
+# automatic translation
+#: timesheet.php:94 timesheet.php:867
+msgid "Upgrade to Pro"
+msgstr "プロ仕様にアップグレードする"
+
+# automatic translation
+#: timesheet.php:208
+msgid "In Office"
+msgstr "会社で"
+
+# automatic translation
+#: timesheet.php:215
+msgid "Remote"
+msgstr "リモート"
+
+# automatic translation
+#: timesheet.php:222
+msgid "Absent"
+msgstr "不在"
+
+# automatic translation
+#: timesheet.php:229
+msgid "Vacation"
+msgstr "休暇"
+
+# automatic translation
+#: timesheet.php:365
+msgid "Timesheet Reminder"
+msgstr "タイムシート リマインダー"
+
+# automatic translation
+#: timesheet.php:366
+msgid "Hi"
+msgstr "やあ"
+
+# automatic translation
+#: timesheet.php:366
+msgid "Please complete your timesheet for the following days"
+msgstr "次の日のタイムシートを完成させてください"
+
+# automatic translation
+#: timesheet.php:366
+msgid "Complete Timesheet Now"
+msgstr "タイムシートを今すぐ完成"
+
+# automatic translation
+#: timesheet.php:366
+msgid "Do not reply to this message. This is an automatic mailing."
+msgstr "このメッセージに返信しないでください。自動配信メールです。"
+
+# automatic translation
+#: timesheet.php:467 timesheet.php:589 timesheet.php:1215
+msgid "WARNING"
+msgstr "警告"
+
+# automatic translation
+#: timesheet.php:467 timesheet.php:589 timesheet.php:1215
+msgid "The plugin works correctly only if JavaScript is enabled."
+msgstr ""
+"プラグインは、JavaScript が有効になっている場合にのみ正しく機能します。"
+
+# automatic translation
+#: timesheet.php:498 timesheet.php:2203 timesheet.php:2399
+msgid "Please select..."
+msgstr "選んでください..."
+
+# automatic translation
+#: timesheet.php:515 timesheet.php:541 timesheet.php:2230 timesheet.php:2256
+#: timesheet.php:2426 timesheet.php:2452
+msgid "Data has not been saved."
+msgstr "データが保存されていません。"
+
+# automatic translation
+#: timesheet.php:549 timesheet.php:2264 timesheet.php:2460
+msgid "Data has been saved."
+msgstr "データが保存されました。"
+
+# automatic translation
+#: timesheet.php:552 timesheet.php:2267
+msgid "Data has not been saved, because there was no change."
+msgstr "変更がないため、データは保存されていません。"
+
+# automatic translation
+#: timesheet.php:594
+msgid "Notice"
+msgstr "知らせ"
+
+# automatic translation
+#: timesheet.php:594
+msgid "Timesheet have been changed."
+msgstr "タイムシートを変更しました。"
+
+# automatic translation
+#: timesheet.php:595 timesheet.php:821
+msgid "Save Changes"
+msgstr "変更内容を保存"
+
+# automatic translation
+#: timesheet.php:617
+msgid "Date from"
+msgstr "デートから"
+
+# automatic translation
+#: timesheet.php:621
+msgid "Date to"
+msgstr "終了日"
+
+# automatic translation
+#: timesheet.php:626
+msgid "Change date"
+msgstr "変更日"
+
+# automatic translation
+#: timesheet.php:641 timesheet.php:1282
+msgid "Status"
+msgstr "スターテス"
+
+# automatic translation
+#: timesheet.php:658
+msgid "Transposition table"
+msgstr "転置表"
+
+# automatic translation
+#: timesheet.php:669 timesheet.php:1299
+msgid "Users"
+msgstr "ユーザー"
+
+# automatic translation
+#: timesheet.php:827
+msgid "Edit time"
+msgstr "時間を編集"
+
+# automatic translation
+#: timesheet.php:827
+msgid "Available in PRO"
+msgstr "PROで利用可能"
+
+# automatic translation
+#: timesheet.php:831
+msgid "Delete status"
+msgstr "ステータスを削除"
+
+# automatic translation
+#: timesheet.php:870
+msgid "or"
+msgstr "また"
+
+# automatic translation
+#: timesheet.php:873
+msgid "Start Your Free Trial"
+msgstr "無料トライアルを開始する"
+
+# automatic translation
+#: timesheet.php:994 timesheet.php:2521 timesheet.php:3179
+msgid "Week"
+msgstr "週"
+
+# automatic translation
+#: timesheet.php:995 timesheet.php:2522 timesheet.php:3180
+msgid "Month"
+msgstr "月"
+
+# automatic translation
+#: timesheet.php:999 timesheet.php:2526 timesheet.php:3184
+msgctxt "Group by"
+msgid "Date"
+msgstr "日付"
+
+# automatic translation
+#: timesheet.php:1000 timesheet.php:2527 timesheet.php:3185
+msgctxt "Group by"
+msgid "User"
+msgstr "ユーザー"
+
+# automatic translation
+#: timesheet.php:1004 timesheet.php:2531 timesheet.php:3189
+msgid "Hourly"
+msgstr "毎時"
+
+# automatic translation
+#: timesheet.php:1005 timesheet.php:2532 timesheet.php:3190
+msgid "Daily"
+msgstr "毎日"
+
+# automatic translation
+#: timesheet.php:1013 timesheet.php:2540 timesheet.php:3198
+msgid "Blank"
+msgstr "空欄"
+
+# automatic translation
+#: timesheet.php:1018 timesheet.php:2545 timesheet.php:3203
+msgid "All statuses"
+msgstr "すべてのステータス"
+
+# automatic translation
+#: timesheet.php:1208
+msgid "Select at least one user."
+msgstr "少なくとも 1 人のユーザーを選択します。"
+
+# automatic translation
+#: timesheet.php:1224
+msgid "Date"
+msgstr "日にち"
+
+# automatic translation
+#: timesheet.php:1233
+msgctxt "date"
+msgid "from"
+msgstr "から"
+
+# automatic translation
+#: timesheet.php:1237
+msgctxt "date"
+msgid "to"
+msgstr "から"
+
+# automatic translation
+#: timesheet.php:1264
+msgid "Group by"
+msgstr "グループ化"
+
+# automatic translation
+#: timesheet.php:1274
+msgid "View"
+msgstr "意見"
+
+#: timesheet.php:1304
+msgctxt "Apply ts report"
+msgid "Apply"
+msgstr "適用"
+
+# automatic translation
+#: timesheet.php:1313 timesheet.php:1422 timesheet.php:1504 timesheet.php:2740
+#: timesheet.php:2849 timesheet.php:2933
+msgid "No data to view"
+msgstr "表示するデータがありません"
+
+# automatic translation
+#: timesheet.php:1818
+msgctxt "All users"
+msgid "All users"
+msgstr "すべてのユーザー"
+
+# automatic translation
+#: timesheet.php:1830
+msgctxt "Search user"
+msgid "No results"
+msgstr "結果なし"
+
+#: timesheet.php:1837
+msgctxt "Search user"
+msgid "No users to select"
+msgstr "選択するユーザーがいない"
+
+# automatic translation
+#: timesheet.php:2070
+msgid "FAQ"
+msgstr "よくある質問"
+
+# automatic translation
+#: timesheet.php:2071
+msgid "Support"
+msgstr "サポート"
+
+# automatic translation
+#: timesheet.php:2104
+msgid "Once Weekly"
+msgstr "毎週1回"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+msgid "Timesheet by BestWebSoft"
+msgstr "BestWebSoftによるタイムシート"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+msgid "https://bestwebsoft.com/products/wordpress/plugins/timesheet/"
+msgstr "https://bestwebsoft.com/products/wordpress/plugins/timesheet/"
+
+# automatic translation
+#. Description of the plugin/theme
+msgid ""
+"Best timesheet plugin for WordPress. Track employee time, streamline "
+"attendance and generate reports."
+msgstr ""
+"WordPress に最適なタイムシート プラグイン。従業員の時間を追跡し、出席を合理化"
+"し、レポートを生成します。"
+
+# automatic translation
+#. Author of the plugin/theme
+msgid "BestWebSoft"
+msgstr "ベストウェブソフト"
+
+# automatic translation
+#. Author URI of the plugin/theme
+msgid "https://bestwebsoft.com/"
+msgstr "https://bestwebsoft.com/"
+
+# automatic translation
+#~ msgid "requires"
+#~ msgstr "必要"
+
+# automatic translation
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "それ以上の場合、それが非アクティブ化された理由です! WordPress をアップグ"
+#~ "レードしてから、もう一度お試しください。"
+
+# automatic translation
+#~ msgid "Back to the WordPress"
+#~ msgstr "ワードプレスに戻る"
+
+# automatic translation
+#~ msgid "Plugins page"
+#~ msgstr "プラグインページ"
+
+# automatic translation
+#~ msgid "Like the plugin?"
+#~ msgstr "プラグインが好きですか？"
+
+# automatic translation
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s 件のレビュー"
+
+# automatic translation
+#~ msgid "Rate it"
+#~ msgstr "それを評価"
+
+# automatic translation
+#~ msgid "Need help?"
+#~ msgstr "助けが必要？"
+
+# automatic translation
+#~ msgid "Visit Help Center"
+#~ msgstr "ヘルプセンターにアクセス"
+
+# automatic translation
+#~ msgid "Want to support the plugin?"
+#~ msgstr "プラグインをサポートしたいですか？"
+
+# automatic translation
+#~ msgid "Donate"
+#~ msgstr "寄付"
+
+# automatic translation
+#~ msgid "WARNING: Illegal use notification"
+#~ msgstr "警告: 不正使用の通知"
+
+# automatic translation
+#~ msgid ""
+#~ "You can use one license of the Pro plugin for one domain only. Please "
+#~ "check and edit your license or domain if necessary using your personal "
+#~ "Client Area. We strongly recommend you to solve the problem within 24 "
+#~ "hours, otherwise the Pro plugin will be deactivated."
+#~ msgstr ""
+#~ "Pro プラグインの 1 つのライセンスは、1 つのドメインに対してのみ使用できま"
+#~ "す。必要に応じて、個人のクライアント エリアを使用して、ライセンスまたはド"
+#~ "メインを確認して編集してください。 24 時間以内に問題を解決することを強くお"
+#~ "勧めします。そうしないと、Pro プラグインが無効になります。"
+
+# automatic translation
+#~ msgid "Learn More"
+#~ msgstr "もっと詳しく知る"
+
+# automatic translation
+#~ msgid ""
+#~ "Notice: Your Pro Trial license has expired. To continue using the plugin, "
+#~ "you should buy a Pro license"
+#~ msgstr ""
+#~ "注意: Pro トライアル ライセンスの有効期限が切れています。プラグインを引き"
+#~ "続き使用するには、Pro ライセンスを購入する必要があります"
+
+# automatic translation
+#~ msgid ""
+#~ "Your license has expired. To continue getting top-priority support and "
+#~ "plugin updates, you should extend it."
+#~ msgstr ""
+#~ "ライセンスの有効期限が切れています。最優先のサポートとプラグインの更新を引"
+#~ "き続き取得するには、延長する必要があります。"
+
+# automatic translation
+#~ msgid "Learn more"
+#~ msgstr "もっと詳しく知る"
+
+# automatic translation
+#, php-format
+#~ msgid "Notice: You are using the Pro Trial license of %s plugin."
+#~ msgstr "注意: %s プラグインのプロ トライアル ライセンスを使用しています。"
+
+# automatic translation
+#~ msgid "Notice: You are using the Pro Trial license of plugin."
+#~ msgstr "注意: プラグインのプロ トライアル ライセンスを使用しています。"
+
+# automatic translation
+#~ msgid "The Pro Trial license will expire on"
+#~ msgstr "プロ トライアル ライセンスの有効期限は次のとおりです。"
+
+# automatic translation
+#~ msgid "Close notice"
+#~ msgstr "お知らせを閉じる"
+
+# automatic translation
+#~ msgid "It’s time to upgrade your"
+#~ msgstr "アップグレードする時が来ました"
+
+# automatic translation
+#~ msgid "version!"
+#~ msgstr "バージョン！"
+
+# automatic translation
+#~ msgid "Extend standard plugin functionality with new great options."
+#~ msgstr "新しい優れたオプションで標準のプラグイン機能を拡張します。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "Your license key for %1$s expires on %2$s and you won't be granted TOP-"
+#~ "PRIORITY SUPPORT or UPDATES."
+#~ msgstr ""
+#~ "%1$s のライセンス キーは %2$s に期限切れになり、最優先のサポートまたは更新"
+#~ "は許可されません。"
+
+# automatic translation
+#~ msgid ""
+#~ "or higher! We do not guarantee that our plugin will work correctly. "
+#~ "Please upgrade to WordPress latest version."
+#~ msgstr ""
+#~ "以上！プラグインが正しく動作することを保証するものではありません。 "
+#~ "WordPress の最新バージョンにアップグレードしてください。"
+
+# automatic translation
+#, php-format
+#~ msgid "Thank you for installing %s plugin!"
+#~ msgstr "%s プラグインをインストールしていただきありがとうございます!"
+
+# automatic translation
+#~ msgid "Let's get started"
+#~ msgstr "始めましょう"
+
+# automatic translation
+#~ msgid "Add New"
+#~ msgstr "新しく追加する"
+
+# automatic translation
+#~ msgid "Thank you for installing plugins by BestWebSoft!"
+#~ msgstr ""
+#~ "BestWebSoft のプラグインをインストールしていただきありがとうございます。"
+
+# automatic translation
+#~ msgid "More Details"
+#~ msgstr "詳細"
+
+# automatic translation
+#~ msgid "Less Details"
+#~ msgstr "詳細を非表示"
+
+# automatic translation
+#~ msgid "Deprecated function(-s) is used on the site here:"
+#~ msgstr "非推奨の関数 (-s) は、次のサイトで使用されています。"
+
+# automatic translation
+#~ msgid ""
+#~ "This function(-s) will be removed over time. Please update the product(-"
+#~ "s)."
+#~ msgstr ""
+#~ "この機能 (-s) は、時間の経過とともに削除されます。製品を更新してください(-"
+#~ "s)。"
+
+# automatic translation
+#, php-format
+#~ msgid "Thank you for choosing %s plugin!"
+#~ msgstr "%s プラグインをお選びいただきありがとうございます!"
+
+# automatic translation
+#~ msgid ""
+#~ "If you have a feature, suggestion or idea you'd like to see in the "
+#~ "plugin, we'd love to hear about it!"
+#~ msgstr ""
+#~ "プラグインに追加してほしい機能、提案、またはアイデアがあれば、ぜひお知らせ"
+#~ "ください。"
+
+# automatic translation
+#~ msgid "Suggest a Feature"
+#~ msgstr "機能を提案する"
+
+# automatic translation
+#~ msgid "Affiliate Program"
+#~ msgstr "アフィリエイトプログラム"
+
+# automatic translation
+#, php-format
+#~ msgid "Get %s"
+#~ msgstr "取得"
+
+# automatic translation
+#~ msgid "from each BestWebSoft plugin and theme sale you refer"
+#~ msgstr "あなたが参照する各BestWebSoftプラグインとテーマの販売から"
+
+# automatic translation
+#~ msgid "Join affiliate program"
+#~ msgstr "アフィリエイト プログラムに参加する"
+
+# automatic translation
+#~ msgid "Promote and sell products"
+#~ msgstr "製品の宣伝と販売"
+
+# automatic translation
+#~ msgid "Get commission!"
+#~ msgstr "コミッションをゲット！"
+
+# automatic translation
+#~ msgid "Start Now"
+#~ msgstr "今すぐ開始"
+
+# automatic translation
+#~ msgid "The plugin's settings have been changed."
+#~ msgstr "プラグインの設定が変更されました。"
+
+# automatic translation
+#~ msgid ""
+#~ "You can always look at premium options by checking the \"Pro Options\" in "
+#~ "the \"Misc\" tab."
+#~ msgstr ""
+#~ "「その他」タブの「プロ オプション」をチェックすると、いつでもプレミアム オ"
+#~ "プションを確認できます。"
+
+# automatic translation
+#~ msgid "Add BWS Shortcode"
+#~ msgstr "BWSショートコードを追加"
+
+# automatic translation
+#~ msgid "Add BWS Plugins Shortcode"
+#~ msgstr "BWS プラグイン ショートコードを追加する"
+
+# automatic translation
+#~ msgid "Add shortcode"
+#~ msgstr "ショートコードを追加"
+
+# automatic translation
+#~ msgid "Add BestWebSoft plugins' shortcodes using this button."
+#~ msgstr ""
+#~ "このボタンを使用して、BestWebSoft プラグインのショートコードを追加します。"
+
+# automatic translation
+#~ msgid "Are you sure you want to restore default settings?"
+#~ msgstr "デフォルト設定を復元してもよろしいですか?"
+
+# automatic translation
+#~ msgid "Yes, restore all settings"
+#~ msgstr "はい、すべての設定を復元します"
+
+# automatic translation
+#~ msgid "No, go back to the settings page"
+#~ msgstr "いいえ、設定ページに戻ります"
+
+# automatic translation
+#~ msgid "Plugin"
+#~ msgstr "プラグイン"
+
+# automatic translation
+#~ msgid "Shortcode settings"
+#~ msgstr "ショートコードの設定"
+
+# automatic translation
+#~ msgid "The shortcode will be inserted"
+#~ msgstr "ショートコードが挿入されます"
+
+# automatic translation
+#~ msgid "For more information:"
+#~ msgstr "詳細については："
+
+# automatic translation
+#~ msgid "Documentation"
+#~ msgstr "ドキュメンテーション"
+
+# automatic translation
+#~ msgid "Video Instructions"
+#~ msgstr "ビデオの説明"
+
+# automatic translation
+#~ msgid "Submit a Request"
+#~ msgstr "リクエストを送信"
+
+# automatic translation
+#~ msgid "Wrong license key"
+#~ msgstr "間違ったライセンス キー"
+
+# automatic translation
+#~ msgid ""
+#~ "Something went wrong. Please try again later. If the error appears again, "
+#~ "please contact us"
+#~ msgstr ""
+#~ "エラーが発生しました。後でもう一度やり直してください。再度エラーが表示され"
+#~ "る場合は、弊社までご連絡ください"
+
+# automatic translation
+#~ msgid "We are sorry for inconvenience."
+#~ msgstr "ご不便をおかけして申し訳ございません。"
+
+# automatic translation
+#~ msgid "Wrong license key."
+#~ msgstr "ライセンスキーが間違っています。"
+
+# automatic translation
+#~ msgid ""
+#~ "This license key is bound to another site. Change it via personal Client "
+#~ "Area."
+#~ msgstr ""
+#~ "このライセンス キーは別のサイトにバインドされています。パーソナル クライア"
+#~ "ント エリアから変更します。"
+
+# automatic translation
+#~ msgid "Log in"
+#~ msgstr "ログイン"
+
+# automatic translation
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day."
+#~ msgstr "残念ながら、1 日に利用できる試行回数を超えました。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "Unfortunately, Your license has expired. To continue getting top-priority "
+#~ "support and plugin updates, you should extend it in your %s"
+#~ msgstr ""
+#~ "残念ながら、ライセンスの有効期限が切れています。最優先のサポートとプラグイ"
+#~ "ンの更新を引き続き取得するには、%s で拡張する必要があります"
+
+# automatic translation
+#~ msgid ""
+#~ "Unfortunately, the Pro licence was already installed to this domain. The "
+#~ "Pro Trial license can be installed only once."
+#~ msgstr ""
+#~ "残念ながら、Pro ライセンスは既にこのドメインにインストールされています。 "
+#~ "Pro Trial ライセンスは 1 回のみインストールできます。"
+
+# automatic translation
+#~ msgid "The license key is valid."
+#~ msgstr "ライセンスキーは有効です。"
+
+# automatic translation
+#~ msgid "Your license will expire on"
+#~ msgstr "ライセンスの有効期限は次のとおりです"
+
+# automatic translation
+#~ msgid "Congratulations! Pro Membership license is activated successfully."
+#~ msgstr ""
+#~ "おめでとう！プロ メンバーシップ ライセンスが正常にアクティブ化されました。"
+
+# automatic translation
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvenience."
+#~ msgstr ""
+#~ "エラーが発生しました。後で再試行するか、プラグインを手動でアップロードして"
+#~ "ください。ご不便をおかけして申し訳ございません。"
+
+# automatic translation
+#~ msgid "Please enter your license key."
+#~ msgstr "ライセンスキーを入力してください。"
+
+# automatic translation
+#~ msgid "Not set"
+#~ msgstr "設定されていません"
+
+# automatic translation
+#~ msgid "On"
+#~ msgstr "の上"
+
+# automatic translation
+#~ msgid "Off"
+#~ msgstr "オフ"
+
+# automatic translation
+#~ msgid "N/A"
+#~ msgstr "なし"
+
+# automatic translation
+#~ msgid "Mb"
+#~ msgstr "メガバイト"
+
+# automatic translation
+#~ msgid "Yes"
+#~ msgstr "はい"
+
+# automatic translation
+#~ msgid "No"
+#~ msgstr "いいえ"
+
+# automatic translation
+#~ msgid "WordPress Environment"
+#~ msgstr "WordPress 環境"
+
+# automatic translation
+#~ msgid "Home URL"
+#~ msgstr "ホーム URL"
+
+# automatic translation
+#~ msgid "Website URL"
+#~ msgstr "ウェブサイトのURL"
+
+# automatic translation
+#~ msgid "WP Version"
+#~ msgstr "WP版"
+
+# automatic translation
+#~ msgid "WP Multisite"
+#~ msgstr "WP マルチサイト"
+
+# automatic translation
+#~ msgid "WP Memory Limit"
+#~ msgstr "WP メモリ制限"
+
+# automatic translation
+#~ msgid "Active Theme"
+#~ msgstr "アクティブなテーマ"
+
+# automatic translation
+#, php-format
+#~ msgid "by %s"
+#~ msgstr "%sによる"
+
+# automatic translation
+#~ msgid "Server Environment"
+#~ msgstr "サーバー環境"
+
+# automatic translation
+#~ msgid "Operating System"
+#~ msgstr "オペレーティング·システム"
+
+# automatic translation
+#~ msgid "Server"
+#~ msgstr "サーバ"
+
+# automatic translation
+#~ msgid "PHP Version"
+#~ msgstr "PHP バージョン"
+
+# automatic translation
+#~ msgid "PHP Allow URL fopen"
+#~ msgstr "PHP 許可 URL fopen"
+
+# automatic translation
+#~ msgid "PHP Memory Limit"
+#~ msgstr "PHP メモリ制限"
+
+# automatic translation
+#~ msgid "PHP Max Upload Size"
+#~ msgstr "PHP 最大アップロード サイズ"
+
+# automatic translation
+#~ msgid "PHP Max Post Size"
+#~ msgstr "PHP 最大投稿サイズ"
+
+# automatic translation
+#~ msgid "PHP Max Script Execute Time"
+#~ msgstr "PHP スクリプトの最大実行時間"
+
+# automatic translation
+#~ msgid "PHP Exif support"
+#~ msgstr "PHP Exif のサポート"
+
+# automatic translation
+#~ msgid "PHP IPTC support"
+#~ msgstr "PHP IPTC サポート"
+
+# automatic translation
+#~ msgid "PHP XML support"
+#~ msgstr "PHP XML サポート"
+
+# automatic translation
+#~ msgid "Database"
+#~ msgstr "データベース"
+
+# automatic translation
+#~ msgid "WP DB version"
+#~ msgstr "WP DB バージョン"
+
+# automatic translation
+#~ msgid "MySQL version"
+#~ msgstr "MySQL のバージョン"
+
+# automatic translation
+#~ msgid "SQL Mode"
+#~ msgstr "SQL モード"
+
+# automatic translation
+#~ msgid "Active Plugins"
+#~ msgstr "アクティブなプラグイン"
+
+# automatic translation
+#~ msgid "Inactive Plugins"
+#~ msgstr "非アクティブなプラグイン"
+
+# automatic translation
+#~ msgid "Please enter a valid email address."
+#~ msgstr "有効なメールアドレスを入力してください。"
+
+# automatic translation
+#, php-format
+#~ msgid "Email with system info is sent to %s."
+#~ msgstr "システム情報を含む電子メールが %s に送信されます。"
+
+# automatic translation
+#~ msgid "Thank you for contacting us."
+#~ msgstr "ご連絡いただきありがとうございます。"
+
+# automatic translation
+#~ msgid "Sorry, email message could not be delivered."
+#~ msgstr "申し訳ありませんが、メール メッセージを配信できませんでした。"
+
+# automatic translation
+#~ msgid "Plugins"
+#~ msgstr "プラグイン"
+
+# automatic translation
+#~ msgid "Themes"
+#~ msgstr "テーマ"
+
+# automatic translation
+#~ msgid "System status"
+#~ msgstr "システムステータス"
+
+# automatic translation
+#~ msgid "Manage purchased licenses & subscriptions"
+#~ msgstr "購入したライセンスとサブスクリプションを管理する"
+
+# automatic translation
+#, php-format
+#~ msgid "Get Access to %s+ Premium Plugins"
+#~ msgstr "%s+ プレミアム プラグインへのアクセスを取得"
+
+# automatic translation
+#~ msgid "Subscribe to Pro Membership"
+#~ msgstr "プロ会員に申し込む"
+
+# automatic translation
+#~ msgid "Check license key"
+#~ msgstr "ライセンスキーの確認"
+
+# automatic translation
+#~ msgid "Enter your license key"
+#~ msgstr "ライセンスキーを入力してください"
+
+# automatic translation
+#~ msgid "Activate"
+#~ msgstr "活性化"
+
+# automatic translation
+#~ msgid "Upload Plugin"
+#~ msgstr "アップロードプラグイン"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "The plugin generated %d characters of <strong>unexpected output</strong> "
+#~ "during activation. If you notice &#8220;headers already sent&#8221; "
+#~ "messages, problems with syndication feeds or other issues, try "
+#~ "deactivating or removing this plugin."
+#~ msgstr ""
+#~ "プラグインは、アクティブ化中に %d 文字の<strong>予期しない出力</strong>を"
+#~ "生成しました。 「headers already sent」メッセージ、シンジケーション フィー"
+#~ "ドの問題、またはその他の問題に気付いた場合は、このプラグインを無効にする"
+#~ "か、削除してみてください。"
+
+# automatic translation
+#~ msgid ""
+#~ "Plugin could not be activated because it triggered a <strong>fatal error</"
+#~ "strong>."
+#~ msgstr ""
+#~ "<strong>致命的なエラーが</strong>発生したため、プラグインをアクティブ化で"
+#~ "きませんでした。"
+
+# automatic translation
+#~ msgid "Plugin <strong>activated</strong>."
+#~ msgstr "プラグインが<strong>有効化されました</strong>。"
+
+# automatic translation
+#~ msgid "Download Pro Plugin"
+#~ msgstr "プロプラグインをダウンロード"
+
+# automatic translation
+#~ msgid "Your Pro plugin is ready"
+#~ msgstr "Pro プラグインの準備ができました"
+
+# automatic translation
+#~ msgid "Your plugin has been zipped, and now is ready to download."
+#~ msgstr "プラグインが圧縮され、ダウンロードする準備が整いました。"
+
+# automatic translation
+#~ msgid "Download Now"
+#~ msgstr "ダウンロード中"
+
+# automatic translation
+#~ msgid "Need help installing the plugin?"
+#~ msgstr "プラグインのインストールにヘルプが必要ですか?"
+
+# automatic translation
+#~ msgid ""
+#~ "How to install WordPress plugin from your admin Dashboard (ZIP archive)"
+#~ msgstr ""
+#~ "管理ダッシュボードから WordPress プラグインをインストールする方法 (ZIP "
+#~ "アーカイブ)"
+
+# automatic translation
+#~ msgid "Get Started"
+#~ msgstr "始めましょう"
+
+# automatic translation
+#~ msgid "Knowledge Base"
+#~ msgstr "知識ベース"
+
+# automatic translation
+#~ msgid "Licenses & Domains"
+#~ msgstr "ライセンスとドメイン"
+
+# automatic translation
+#~ msgid "Client Area"
+#~ msgstr "クライアントエリア"
+
+# automatic translation
+#~ msgid "Return to BestWebSoft Panel"
+#~ msgstr "BestWebSoft パネルに戻る"
+
+# automatic translation
+#~ msgid "All"
+#~ msgstr "全て"
+
+# automatic translation
+#~ msgid "Installed"
+#~ msgstr "インストール済み"
+
+# automatic translation
+#~ msgid "Not Installed"
+#~ msgstr "インストールされていない"
+
+# automatic translation
+#~ msgid "Category"
+#~ msgstr "カテゴリー"
+
+# automatic translation
+#~ msgid "Not installed"
+#~ msgstr "インストールされていない"
+
+# automatic translation
+#~ msgid "Renew to get updates"
+#~ msgstr "更新してアップデートを入手する"
+
+# automatic translation
+#, php-format
+#~ msgid "Update to v %s"
+#~ msgstr "v %s に更新"
+
+# automatic translation
+#~ msgid "Get Pro"
+#~ msgstr "プロになる"
+
+# automatic translation
+#~ msgid "Activate this plugin"
+#~ msgstr "このプラグインを有効化"
+
+# automatic translation
+#~ msgid "Install this plugin"
+#~ msgstr "このプラグインをインストール"
+
+# automatic translation
+#~ msgid "Install Now"
+#~ msgstr "今すぐインストール"
+
+# automatic translation
+#~ msgid "Nothing found. Try another criteria."
+#~ msgstr "何も見つかりません。別の基準を試してください。"
+
+# automatic translation
+#, php-format
+#~ msgid "By %s"
+#~ msgstr "%s で"
+
+# automatic translation
+#~ msgid "Already Installed"
+#~ msgstr "すでにインストールされています"
+
+# automatic translation
+#~ msgid "Browse More WordPress Themes"
+#~ msgstr "他の WordPress テーマを参照する"
+
+# automatic translation
+#~ msgid "Send to support"
+#~ msgstr "サポートに送信"
+
+# automatic translation
+#~ msgid "Send to custom email &#187;"
+#~ msgstr "カスタム メールに送信 &#187;"
+
+# automatic translation
+#~ msgid "Information"
+#~ msgstr "情報"
+
+# automatic translation
+#~ msgid "Inactive"
+#~ msgstr "非活性"
+
+# automatic translation
+#~ msgid "Expired"
+#~ msgstr "期限切れ"
+
+# automatic translation
+#, php-format
+#~ msgid "%s day(-s) left"
+#~ msgstr "残り %s 日 (-s)"
+
+# automatic translation
+#, php-format
+#~ msgid "Expired on %s"
+#~ msgstr "%s に期限切れ"
+
+# automatic translation
+#~ msgid "Renew Now"
+#~ msgstr "今すぐ更新"
+
+# automatic translation
+#~ msgid "Active"
+#~ msgstr "アクティブ"
+
+# automatic translation
+#~ msgid "License"
+#~ msgstr "ライセンス"
+
+# automatic translation
+#~ msgid "Version"
+#~ msgstr "バージョン"
+
+# automatic translation
+#~ msgid "All plugin settings were restored."
+#~ msgstr "すべてのプラグイン設定が復元されました。"
+
+# automatic translation
+#~ msgid "Custom Code"
+#~ msgstr "カスタムコード"
+
+# automatic translation
+#~ msgid ""
+#~ "The ability to add custom code is available in the Pro version. If the "
+#~ "Pro version is not available please contact us via Help Center"
+#~ msgstr ""
+#~ "カスタム コードを追加する機能は、Pro バージョンで利用できます。 Proバー"
+#~ "ジョンが利用できない場合は、ヘルプセンターからお問い合わせください"
+
+# automatic translation
+#~ msgid ""
+#~ "You do not have sufficient permissions to edit plugins for this site."
+#~ msgstr "このサイトのプラグインを編集するための十分な権限がありません。"
+
+# automatic translation
+#~ msgid "These styles will be added to the header on all pages of your site."
+#~ msgstr ""
+#~ "これらのスタイルは、サイトのすべてのページのヘッダーに追加されます。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "This PHP code will be hooked to the %s Action and will be printed on "
+#~ "front end only."
+#~ msgstr ""
+#~ "この PHP コードは %s アクションにフックされ、フロント エンドでのみ出力され"
+#~ "ます。"
+
+# automatic translation
+#~ msgid "These code will be added to the header on all pages of your site."
+#~ msgstr "これらのコードは、サイトのすべてのページのヘッダーに追加されます。"
+
+# automatic translation
+#~ msgid "Browsing"
+#~ msgstr "ブラウジング"
+
+# automatic translation
+#, php-format
+#~ msgid "Activate custom %s code."
+#~ msgstr "カスタム %s コードを有効にします。"
+
+# automatic translation
+#, php-format
+#~ msgid "Learn more about %s"
+#~ msgstr "%s の詳細"
+
+# automatic translation
+#~ msgid "Miscellaneous Settings"
+#~ msgstr "その他の設定"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "It is prohibited to change %1$s settings on this site in the %2$s network "
+#~ "settings."
+#~ msgstr ""
+#~ "%2$s ネットワーク設定で、このサイトの %1$s 設定を変更することは禁止されて"
+#~ "います。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "It is prohibited to view %1$s settings on this site in the %2$s network "
+#~ "settings."
+#~ msgstr ""
+#~ "%2$s ネットワーク設定で、このサイトの %1$s 設定を表示することは禁止されて"
+#~ "います。"
+
+# automatic translation
+#~ msgid "Pro Options"
+#~ msgstr "プロのオプション"
+
+# automatic translation
+#~ msgid "Enable to display plugin Pro options."
+#~ msgstr "プラグインの Pro オプションを表示できるようにします。"
+
+# automatic translation
+#~ msgid "Track Usage"
+#~ msgstr "使用状況の追跡"
+
+# automatic translation
+#~ msgid ""
+#~ "Enable to allow tracking plugin usage anonymously in order to make it "
+#~ "better."
+#~ msgstr ""
+#~ "プラグインの使用状況を匿名で追跡できるように有効にして、改善します。"
+
+# automatic translation
+#~ msgid "Default Settings"
+#~ msgstr "デフォルトの設定"
+
+# automatic translation
+#~ msgid "Restore Settings"
+#~ msgstr "設定の復元"
+
+# automatic translation
+#~ msgid "This will restore plugin settings to defaults."
+#~ msgstr "これにより、プラグイン設定がデフォルトに復元されます。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "Enter your license key to activate %s and get premium plugin features."
+#~ msgstr ""
+#~ "ライセンス キーを入力して %s をアクティベートし、プレミアム プラグイン機能"
+#~ "を取得してください。"
+
+# automatic translation
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "残念ながら、1 日に利用できる試行回数を超えました。プラグインを手動でアップ"
+#~ "ロードしてください。"
+
+# automatic translation
+#, php-format
+#~ msgid "Start Your Free %s-Day Trial Now"
+#~ msgstr "%s 日間の無料トライアルを今すぐ開始"
+
+# automatic translation
+#~ msgid ""
+#~ "If necessary, you can check if the license key is correct or reenter it "
+#~ "in the field below."
+#~ msgstr ""
+#~ "必要に応じて、ライセンス キーが正しいかどうかを確認するか、下のフィールド"
+#~ "に再入力できます。"
+
+# automatic translation
+#~ msgid "Manage License Settings"
+#~ msgstr "ライセンス設定の管理"
+
+# automatic translation
+#~ msgid "Login to Client Area"
+#~ msgstr "クライアントエリアにログイン"
+
+# automatic translation
+#~ msgid ""
+#~ "Manage active licenses, download BWS products, and view your payment "
+#~ "history using BestWebSoft Client Area."
+#~ msgstr ""
+#~ "BestWebSoft クライアント エリアを使用して、有効なライセンスを管理し、BWS "
+#~ "製品をダウンロードし、支払い履歴を表示します。"
+
+# automatic translation
+#~ msgid "Security check"
+#~ msgstr "セキュリティーチェック"
+
+# automatic translation
+#~ msgid "This license key is bound to another site."
+#~ msgstr "このライセンス キーは別のサイトにバインドされています。"
+
+# automatic translation
+#~ msgid ""
+#~ "This license key is valid, but Your license has expired. If you want to "
+#~ "update our plugin in future, you should extend the license."
+#~ msgstr ""
+#~ "このライセンス キーは有効ですが、ライセンスの有効期限が切れています。今後"
+#~ "プラグインを更新する場合は、ライセンスを延長する必要があります。"
+
+# automatic translation
+#~ msgid "Unfortunately, you have exceeded the number of available tries."
+#~ msgstr "残念ながら、利用可能な試行回数を超えました。"
+
+# automatic translation
+#~ msgid ""
+#~ "Unfortunately, the Pro Trial licence was already installed to this "
+#~ "domain. The Pro Trial license can be installed only once."
+#~ msgstr ""
+#~ "残念ながら、Pro Trial ライセンスはこのドメインに既にインストールされていま"
+#~ "す。 Pro Trial ライセンスは 1 回のみインストールできます。"
+
+# automatic translation
+#~ msgid "The Pro Trial license key is valid."
+#~ msgstr "プロ トライアル ライセンス キーは有効です。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "In order to continue using the plugin it is necessary to buy a %s license."
+#~ msgstr ""
+#~ "プラグインを引き続き使用するには、%s ライセンスを購入する必要があります。"
+
+# automatic translation
+#, php-format
+#~ msgid ""
+#~ "Unfortunately, Your license has expired. To continue getting top-priority "
+#~ "support and plugin updates, you should extend it in your %s."
+#~ msgstr ""
+#~ "残念ながら、ライセンスの有効期限が切れています。最優先のサポートとプラグイ"
+#~ "ンの更新を引き続き取得するには、%s で拡張する必要があります。"
+
+# automatic translation
+#~ msgid "Please, enter Your license key"
+#~ msgstr "ライセンスキーを入力してください"
+
+# automatic translation
+#~ msgid "Need Help?"
+#~ msgstr "助けが必要？"
+
+# automatic translation
+#~ msgid "Read the Instruction"
+#~ msgstr "指示を読む"
+
+# automatic translation
+#~ msgid "Watch the Video"
+#~ msgstr "ビデオを見る"
+
+# automatic translation
+#~ msgid "Request a Feature"
+#~ msgstr "機能をリクエストする"
+
+# automatic translation
+#, php-format
+#~ msgid "How can we improve %s?"
+#~ msgstr "%s を改善するにはどうすればよいですか?"
+
+# automatic translation
+#~ msgid "We look forward to hear your ideas."
+#~ msgstr "皆様のご意見をお待ちしております。"
+
+# automatic translation
+#~ msgid "Describe your idea"
+#~ msgstr "あなたのアイデアを説明してください"
+
+# automatic translation
+#~ msgid "Send website data and allow to contact me back"
+#~ msgstr "ウェブサイトのデータを送信し、私に連絡することを許可します"
+
+# automatic translation
+#~ msgid "Submit"
+#~ msgstr "送信"
+
+# automatic translation
+#~ msgid "Processing"
+#~ msgstr "処理"
+
+# automatic translation
+#~ msgid "Thank you!"
+#~ msgstr "ありがとう！"
+
+# automatic translation
+#~ msgid "Need help? We are ready to answer your questions."
+#~ msgstr "助けが必要？ご質問にお答えする準備ができています。"
+
+# automatic translation
+#~ msgid "Contact Support"
+#~ msgstr "サポート問い合わせ先"
+
+# automatic translation
+#~ msgid "The plugin is not working"
+#~ msgstr "プラグインが機能していません"
+
+# automatic translation
+#~ msgid "Kindly share what didn't work so we can fix it in future updates..."
+#~ msgstr ""
+#~ "今後のアップデートで修正できるように、機能しなかったものを共有してくださ"
+#~ "い..."
+
+# automatic translation
+#~ msgid "The plugin didn't work as expected"
+#~ msgstr "プラグインが期待どおりに機能しなかった"
+
+# automatic translation
+#~ msgid "What did you expect?"
+#~ msgstr "何を期待していましたか？"
+
+# automatic translation
+#~ msgid "The plugin suddenly stopped working"
+#~ msgstr "プラグインが突然動かなくなった"
+
+# automatic translation
+#~ msgid "The plugin broke my site"
+#~ msgstr "プラグインが私のサイトを壊した"
+
+# automatic translation
+#~ msgid "I couldn't understand how to get it work"
+#~ msgstr "それを機能させる方法を理解できませんでした"
+
+# automatic translation
+#~ msgid "I found a better plugin"
+#~ msgstr "もっと良いプラグインを見つけた"
+
+# automatic translation
+#~ msgid "What's the plugin name?"
+#~ msgstr "プラグイン名は？"
+
+# automatic translation
+#~ msgid ""
+#~ "The plugin is great, but I need specific feature that you don't support"
+#~ msgstr ""
+#~ "プラグインは素晴らしいですが、サポートされていない特定の機能が必要です"
+
+# automatic translation
+#~ msgid "What feature?"
+#~ msgstr "何の機能？"
+
+# automatic translation
+#~ msgid "I no longer need the plugin"
+#~ msgstr "プラグインが不要になりました"
+
+# automatic translation
+#~ msgid "It's a temporary deactivation, I'm just debugging an issue"
+#~ msgstr "これは一時的な非アクティブ化です。問題をデバッグしているだけです"
+
+# automatic translation
+#~ msgid "Other"
+#~ msgstr "他の"
+
+# automatic translation
+#~ msgid "Quick Feedback"
+#~ msgstr "クイックフィードバック"
+
+# automatic translation
+#~ msgid "If you have a moment, please let us know why you are deactivating"
+#~ msgstr "お時間がありましたら、無効にする理由をお知らせください。"
+
+# automatic translation
+#~ msgid "Submit and Deactivate"
+#~ msgstr "送信して非アクティブ化"
+
+# automatic translation
+#~ msgid "Skip and Deactivate"
+#~ msgstr "スキップして非アクティブ化"
+
+# automatic translation
+#~ msgid "Please tell us the reason so we can improve it."
+#~ msgstr "改善できるように理由を教えてください。"
+
+# automatic translation
+#~ msgid "System Status"
+#~ msgstr "システムステータス"
+
+# automatic translation
+#~ msgid ""
+#~ "If necessary, you can check if the license key is correct or reenter it "
+#~ "in the field below. You can find your license key on your personal page - "
+#~ "Client Area - on our website"
+#~ msgstr ""
+#~ "必要に応じて、ライセンス キーが正しいかどうかを確認するか、下のフィールド"
+#~ "に再入力できます。ライセンス キーは、当社の Web サイトの個人ページ - クラ"
+#~ "イアント エリア - にあります。"
+
+# automatic translation
+#~ msgid ""
+#~ "(your username is the email address specified during the purchase). If "
+#~ "necessary, please submit \"Lost your password?\" request."
+#~ msgstr ""
+#~ "(ユーザー名は、購入時に指定したメール アドレスです)。必要に応じて、「パス"
+#~ "ワードをお忘れですか?」と送信してください。リクエスト。"
+
+# automatic translation
+#~ msgid "After that, you can activate it by entering your license key."
+#~ msgstr "その後、ライセンスキーを入力してアクティベートできます。"
+
+# automatic translation
+#~ msgid "License key can be found in the"
+#~ msgstr "ライセンス キーは"
+
+# automatic translation
+#~ msgid "(your username is the email address specified during the purchase)."
+#~ msgstr "(ユーザー名は、購入時に指定したメール アドレスです)。"
+
+# automatic translation
+#~ msgid ""
+#~ "Congratulations! The Pro license of the plugin is activated successfully."
+#~ msgstr ""
+#~ "おめでとう！プラグインの Pro ライセンスが正常にアクティブ化されました。"
+
+# automatic translation
+#~ msgid "Please, go to"
+#~ msgstr "に行ってください"
+
+# automatic translation
+#~ msgid "the setting page"
+#~ msgstr "設定ページ"
+
+# automatic translation
+#~ msgid "Restore all plugin settings to defaults"
+#~ msgstr "すべてのプラグイン設定をデフォルトに戻す"
+
+# automatic translation
+#~ msgid "Restore settings"
+#~ msgstr "設定の復元"
+
+# automatic translation
+#~ msgid ""
+#~ "Congratulations! Pro version of the plugin is  installed and activated "
+#~ "successfully."
+#~ msgstr ""
+#~ "おめでとう！プラグインの Pro バージョンがインストールされ、正常にアクティ"
+#~ "ブ化されました。"
+
+# automatic translation
+#~ msgid "Show Pro features"
+#~ msgstr "プロの機能を表示"
+
+# automatic translation
+#~ msgid "Enter your license key to install and activate"
+#~ msgstr "ライセンス キーを入力して、インストールとアクティブ化を行います"
+
+# automatic translation
+#~ msgid "version of the plugin."
+#~ msgstr "プラグインのバージョン。"
+
+# automatic translation
+#~ msgid "Admin Tools"
+#~ msgstr "管理ツール"
+
+# automatic translation
+#~ msgid "Content"
+#~ msgstr "コンテンツ"
+
+# automatic translation
+#~ msgid "eCommerce"
+#~ msgstr "eコマース"
+
+# automatic translation
+#~ msgid "Marketing"
+#~ msgstr "マーケティング"
+
+# automatic translation
+#~ msgid "Navigation"
+#~ msgstr "ナビゲーション"
+
+# automatic translation
+#~ msgid "Recommended"
+#~ msgstr "おすすめされた"
+
+# automatic translation
+#~ msgid "Security"
+#~ msgstr "安全"
+
+# automatic translation
+#~ msgid "SEO"
+#~ msgstr "これ"
+
+# automatic translation
+#~ msgid "SMM"
+#~ msgstr "SMM"
+
+# automatic translation
+#~ msgid "Give a birth for your bike rental and booking WordPress website."
+#~ msgstr "自転車のレンタルと予約の WordPress ウェブサイトを誕生させましょう。"
+
+# automatic translation
+#~ msgid "Best secure captcha plugin to protect your WordPress forms."
+#~ msgstr ""
+#~ "WordPress フォームを保護するための最高の安全なキャプチャ プラグイン。"
+
+# automatic translation
+#~ msgid "Create your own rental website for car renting and booking."
+#~ msgstr "レンタカーと予約のための独自のレンタル Web サイトを作成します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add columns with custom content to WordPress website pages, posts, "
+#~ "widgets, etc."
+#~ msgstr ""
+#~ "カスタム コンテンツを含む列を WordPress Web サイト ページ、投稿、ウィ"
+#~ "ジェットなどに追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Allow customers to reach you using secure contact form plugin any website "
+#~ "must have."
+#~ msgstr ""
+#~ "Web サイトに必要な安全なコンタクト フォーム プラグインを使用して、顧客があ"
+#~ "なたに連絡できるようにします。"
+
+# automatic translation
+#~ msgid "Add unlimited number of contact forms to WordPress website."
+#~ msgstr ""
+#~ "WordPress Web サイトに無制限の数のお問い合わせフォームを追加します。"
+
+# automatic translation
+#~ msgid "Save and manage Contact Form messages. Never lose important data."
+#~ msgstr ""
+#~ "お問い合わせフォームのメッセージを保存して管理します。重要なデータを失うこ"
+#~ "とはありません。"
+
+# automatic translation
+#~ msgid "Add unlimited custom pages to WordPress admin dashboard."
+#~ msgstr "WordPress 管理ダッシュボードに無制限のカスタム ページを追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add custom post types and taxonomies to WordPress website search results."
+#~ msgstr ""
+#~ "WordPress ウェブサイトの検索結果にカスタム投稿タイプとタクソノミーを追加し"
+#~ "ます。"
+
+# automatic translation
+#~ msgid "Add PayPal and 2CO donate buttons to receive charity payments."
+#~ msgstr ""
+#~ "PayPal と 2CO の寄付ボタンを追加して、チャリティーの支払いを受け取ります。"
+
+# automatic translation
+#~ msgid ""
+#~ "Get latest error log messages to diagnose website problems. Define and "
+#~ "fix issues faster."
+#~ msgstr ""
+#~ "最新のエラー ログ メッセージを取得して、Web サイトの問題を診断します。問題"
+#~ "をより迅速に定義して修正します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add Facebook Follow, Like, and Share buttons to WordPress posts, pages, "
+#~ "and widgets."
+#~ msgstr ""
+#~ "Facebook のフォロー、いいね、共有ボタンを WordPress の投稿、ページ、ウィ"
+#~ "ジェットに追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add beautiful galleries, albums & images to your WordPress website in a "
+#~ "few clicks."
+#~ msgstr ""
+#~ "数回クリックするだけで、美しいギャラリー、アルバム、画像を WordPress ウェ"
+#~ "ブサイトに追加できます。"
+
+# automatic translation
+#~ msgid ""
+#~ "Stronger security solution which protects your WordPress website from "
+#~ "hacks and unauthorized login attempts."
+#~ msgstr ""
+#~ "WordPress Web サイトをハッキングや不正なログイン試行から保護する、より強力"
+#~ "なセキュリティ ソリューション。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add Adsense ads to WordPress website pages, posts, custom posts, search "
+#~ "results, categories, tags, and widgets."
+#~ msgstr ""
+#~ "Adsense 広告を WordPress Web サイト ページ、投稿、カスタム投稿、検索結果、"
+#~ "カテゴリ、タグ、およびウィジェットに追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add Google Analytics code to WordPress website and track basic stats."
+#~ msgstr ""
+#~ "Google Analytics コードを WordPress ウェブサイトに追加して、基本的な統計を"
+#~ "追跡します。"
+
+# automatic translation
+#~ msgid "Protect WordPress website forms from spam entries with reCaptcha."
+#~ msgstr ""
+#~ "reCaptcha を使用して、WordPress Web サイトのフォームをスパム エントリから"
+#~ "保護します。"
+
+# automatic translation
+#~ msgid "Add customized Google maps to WordPress posts, pages and widgets."
+#~ msgstr ""
+#~ "カスタマイズした Google マップを WordPress の投稿、ページ、ウィジェットに"
+#~ "追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Generate and add XML sitemap to WordPress website. Help search engines "
+#~ "index your blog."
+#~ msgstr ""
+#~ "XML サイトマップを生成して WordPress Web サイトに追加します。検索エンジン"
+#~ "があなたのブログをインデックスに登録できるようにします。"
+
+# automatic translation
+#~ msgid ""
+#~ "Replace external WordPress website links with Google shortlinks and track "
+#~ "click stats."
+#~ msgstr ""
+#~ "外部 WordPress ウェブサイト リンクを Google 短縮リンクに置き換え、クリック"
+#~ "統計を追跡します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Protect WordPress website – allow and deny access for certain IP "
+#~ "addresses, hostnames, etc."
+#~ msgstr ""
+#~ "WordPress ウェブサイトを保護 – 特定の IP アドレス、ホスト名などへのアクセ"
+#~ "スを許可および拒否します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Create your personal job board and listing WordPress website. Search "
+#~ "jobs, submit CV/resumes, choose candidates."
+#~ msgstr ""
+#~ "あなたの個人的な求人掲示板とリスティング WordPress Web サイトを作成しま"
+#~ "す。求人の検索、履歴書の提出、候補者の選択。"
+
+# automatic translation
+#~ msgid ""
+#~ "Protect WordPress website against brute force attacks. Limit rate of "
+#~ "login attempts."
+#~ msgstr ""
+#~ "ブルート フォース攻撃から WordPress Web サイトを保護します。ログイン試行回"
+#~ "数を制限します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add LinkedIn Share and Follow buttons to WordPress posts, pages and "
+#~ "widgets. 5 plugins included – profile, insider, etc."
+#~ msgstr ""
+#~ "LinkedIn の共有ボタンとフォロー ボタンを WordPress の投稿、ページ、ウィ"
+#~ "ジェットに追加します。 5 つのプラグインが含まれています – プロファイル、イ"
+#~ "ンサイダーなど。"
+
+# automatic translation
+#~ msgid ""
+#~ "Translate WordPress website content to other languages manually. Create "
+#~ "multilingual pages, posts, widgets, menus, etc."
+#~ msgstr ""
+#~ "WordPress Web サイトのコンテンツを他の言語に手動で翻訳します。多言語ペー"
+#~ "ジ、投稿、ウィジェット、メニューなどを作成します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add customizable pagination to WordPress website. Split long content to "
+#~ "multiple pages for better navigation."
+#~ msgstr ""
+#~ "WordPress Web サイトにカスタマイズ可能なページネーションを追加します。ナビ"
+#~ "ゲーションを改善するために、長いコンテンツを複数のページに分割します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Generate PDF files and print WordPress posts/pages. Customize document "
+#~ "header/footer styles and appearance."
+#~ msgstr ""
+#~ "PDF ファイルを生成し、WordPress の投稿/ページを印刷します。ドキュメントの"
+#~ "ヘッダー/フッターのスタイルと外観をカスタマイズします。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add Pinterest Follow, Pin It buttons and profile widgets (Pin, Board, "
+#~ "Profile) to WordPress posts, pages and widgets."
+#~ msgstr ""
+#~ "Pinterest のフォロー、ピン留めボタン、プロフィール ウィジェット (ピン、"
+#~ "ボード、プロフィール) を WordPress の投稿、ページ、ウィジェットに追加しま"
+#~ "す。"
+
+# automatic translation
+#~ msgid ""
+#~ "Create your personal portfolio WordPress website. Manage and showcase "
+#~ "past projects to get more clients."
+#~ msgstr ""
+#~ "個人のポートフォリオ WordPress Web サイトを作成します。過去のプロジェクト"
+#~ "を管理して紹介し、より多くのクライアントを獲得します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Export WordPress posts to CSV file format easily. Configure data order."
+#~ msgstr ""
+#~ "WordPress の投稿を CSV ファイル形式に簡単にエクスポートします。データの順"
+#~ "序を構成します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add extra fields to default WordPress user profile. The easiest way to "
+#~ "create and manage additional custom values."
+#~ msgstr ""
+#~ "デフォルトの WordPress ユーザー プロファイルにフィールドを追加します。追加"
+#~ "のカスタム値を作成および管理する最も簡単な方法。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add and display HTML advertisement banner on WordPress website. Customize "
+#~ "bar styles and appearance."
+#~ msgstr ""
+#~ "WordPress ウェブサイトに HTML 広告バナーを追加して表示します。バーのスタイ"
+#~ "ルと外観をカスタマイズします。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add customizable quotes and tips blocks to WordPress posts, pages and "
+#~ "widgets."
+#~ msgstr ""
+#~ "WordPress の投稿、ページ、ウィジェットにカスタマイズ可能な引用文とヒント "
+#~ "ブロックを追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add rating plugin to your WordPress website to receive feedback from your "
+#~ "customers."
+#~ msgstr ""
+#~ "WordPress Web サイトに評価プラグインを追加して、顧客からのフィードバックを"
+#~ "受け取ります。"
+
+# automatic translation
+#~ msgid ""
+#~ "Create your personal real estate WordPress website. Sell, rent and buy "
+#~ "properties. Add, search and browse listings easily."
+#~ msgstr ""
+#~ "個人の不動産 WordPress Web サイトを作成します。不動産の販売、賃貸、購入。"
+#~ "リストを簡単に追加、検索、閲覧できます。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add related, featured, latest, and popular posts to your WordPress "
+#~ "website. Connect your blog readers with a relevant content."
+#~ msgstr ""
+#~ "関連記事、特集記事、最新記事、人気記事を WordPress Web サイトに追加しま"
+#~ "す。ブログの読者を関連するコンテンツにつなげます。"
+
+# automatic translation
+#~ msgid ""
+#~ "Send bulk email messages to WordPress users. Custom templates, advanced "
+#~ "settings and detailed reports."
+#~ msgstr ""
+#~ "WordPress ユーザーに一括メール メッセージを送信します。カスタム テンプレー"
+#~ "ト、詳細設定、詳細レポート。"
+
+# automatic translation
+#~ msgid ""
+#~ "The best responsive slider plugin for your WordPress website. Create "
+#~ "beautifully animated slides just in a few clicks."
+#~ msgstr ""
+#~ "WordPress ウェブサイトに最適なレスポンシブ スライダー プラグイン。数回ク"
+#~ "リックするだけで、美しくアニメーション化されたスライドを作成できます。"
+
+# automatic translation
+#~ msgid ""
+#~ "Configure SMTP server to receive email messages from WordPress to Gmail, "
+#~ "Yahoo, Hotmail and other services."
+#~ msgstr ""
+#~ "WordPress から Gmail、Yahoo、Hotmail およびその他のサービスへの電子メール "
+#~ "メッセージを受信するように SMTP サーバーを構成します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add social media buttons and widgets to WordPress posts, pages and "
+#~ "widgets. FB, Twitter, Pinterest, LinkedIn."
+#~ msgstr ""
+#~ "ソーシャル メディアのボタンとウィジェットを WordPress の投稿、ページ、ウィ"
+#~ "ジェットに追加します。 FB、ツイッター、ピンタレスト、リンクトイン。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add social media login, registration, and commenting to your WordPress "
+#~ "website."
+#~ msgstr ""
+#~ "ソーシャル メディアのログイン、登録、コメントを WordPress Web サイトに追加"
+#~ "します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add email newsletter sign up form to WordPress posts, pages and widgets. "
+#~ "Collect data and subscribe your users."
+#~ msgstr ""
+#~ "WordPress の投稿、ページ、ウィジェットにメール ニュースレターのサインアッ"
+#~ "プ フォームを追加します。データを収集し、ユーザーをサブスクライブします。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add testimonials and feedbacks from your customers to WordPress website "
+#~ "posts, pages, and widgets."
+#~ msgstr ""
+#~ "お客様の声やフィードバックを WordPress Web サイトの投稿、ページ、ウィ"
+#~ "ジェットに追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Add Twitter Follow, Tweet, Hashtag, and Mention buttons to WordPress "
+#~ "posts and pages."
+#~ msgstr ""
+#~ "Twitter のフォロー、ツイート、ハッシュタグ、メンション ボタンを WordPress "
+#~ "の投稿やページに追加します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Automatically check and update WordPress website core with all installed "
+#~ "plugins and themes to the latest versions."
+#~ msgstr ""
+#~ "インストールされているすべてのプラグインとテーマを使用して、WordPress Web "
+#~ "サイトのコアを自動的にチェックし、最新バージョンに更新します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Powerful user role management plugin for WordPress website. Create, edit, "
+#~ "copy, and delete user roles."
+#~ msgstr ""
+#~ "WordPress Web サイト用の強力なユーザー ロール管理プラグイン。ユーザー ロー"
+#~ "ルを作成、編集、コピー、および削除します。"
+
+# automatic translation
+#~ msgid ""
+#~ "Display live count of online visitors who are currently browsing your "
+#~ "WordPress website."
+#~ msgstr ""
+#~ "現在 WordPress Web サイトを閲覧しているオンライン訪問者の実際の数を表示し"
+#~ "ます。"
+
+# automatic translation
+#~ msgid ""
+#~ "Backup and export Zendesk Help Center content automatically to your "
+#~ "WordPress website database."
+#~ msgstr ""
+#~ "Zendesk ヘルプ センターのコンテンツを WordPress Web サイト データベースに"
+#~ "自動的にバックアップおよびエクスポートします。"

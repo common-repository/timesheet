@@ -1,0 +1,162 @@
+#tmsht_timeline_settings_wrap {
+	max-width: 250px;
+	width: 100%;
+}
+#tmsht_timeline_settings {
+	margin: 0 0 10px;
+}
+#tmsht_ts_timeline_from,
+#tmsht_ts_timeline_to {
+	width: 60px;
+}
+#tmsht_timeline_slider_wrap {
+	margin: 0 0 0 7px;
+}
+.tmsht_label_weekends {
+	padding: 0 10px 0 0;
+}
+.tmsht_label_weekends input {
+	margin: 0 2px 0 0;
+}
+.rtl .tmsht_label_weekends {
+	padding: 0 0 0 10px;
+}
+.rtl  .tmsht_label_weekends input {
+	margin: 0 0 0 2px;
+}
+.tmsht_ts_legends_table {
+	max-width: 500px;
+	width: 100%;
+	margin-top: 10px;
+}
+.tmsht_ts_legends_table td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+}
+.tmsht_ts_legends_table td.tmsht_ts_legend_id_cell {
+	width: 60px;
+}
+.tmsht_ts_legends_table td.tmsht_ts_legend_name_cell {
+	width: 200px;
+	word-wrap: break-word;
+}
+.tmsht_ts_legend_id_cell input[type="checkbox"] {
+	display: inline-block !important;
+}
+.tmsht_ts_legend_color {
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	vertical-align: middle;
+}
+.tmsht_ts_legend_color_cell .wp-color-result {
+	height: auto;
+}
+.tmsht_ts_legend_id {
+	vertical-align: middle !important;
+	margin: 0 !important;
+}
+#tmsht_add_ts_legend_name {
+	vertical-align: top;
+}
+.tmsht_format_i18n td {
+	padding: 5px 40px 5px 0 !important;
+}
+.tmsht_format_i18n tr td:last-child {
+	padding-right: 0 !important;
+}
+.rtl .tmsht_format_i18n td {
+	padding: 5px 0 5px 40px !important;
+}
+.rtl .tmsht_format_i18n tr td:last-child {
+	padding-left: 0 !important;
+}
+#tmsht_date_format_display {
+	white-space: nowrap;
+}
+#tmsht_date_format_spinner {
+	float: none;
+}
+#tmsht_display_ts_user_page_for_wrap,
+#tmsht_display_ts_report_page_for_wrap {
+	max-width: 600px;
+	width: 100%;
+	height: 250px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	background-color: #fff;
+	color: #32373c;
+	-webkit-transition: 50ms border-color ease-in-out;
+	transition: 50ms border-color ease-in-out;
+	background: #ffffff;
+}
+#tmsht_display_ts_user_page_for_users_wrap,
+#tmsht_display_ts_report_page_for_users_wrap {
+	padding: 0 10px 0 25px;
+}
+#tmsht_display_ts_user_page_for,
+#tmsht_display_ts_report_page_for {
+	height: 100%;
+	margin: 0;
+}
+#tmsht_display_ts_user_page_for li,
+#tmsht_display_ts_report_page_for li {
+	margin: 0;
+}
+#tmsht_display_ts_user_page_for label,
+#tmsht_display_ts_report_page_for label {
+	display: block;
+	padding: 5px;
+}
+#tmsht_display_ts_user_page_for label:hover,
+#tmsht_display_ts_report_page_for label:hover {
+	background: #f1f1f1;
+}
+.tmsht_reminder_settings {
+	margin: 20px 0 0;
+}
+.tmsht_reminder_settings span:first-child {
+	margin-left: 0;
+}
+#tmsht_reminder_subject {
+	max-width: 100%;
+	width: 100%;
+}
+#tmsht_reminder_message {
+	height: 150px;
+}
+@media screen and (max-width: 782px) {
+	.tmsht_wrap input[type=radio],
+	.tmsht_wrap input[type=checkbox] {
+		margin-top: 0;
+	}
+	.tmsht_ts_legends_table thead,
+	.tmsht_ts_legends_table tfoot {
+		display: none;
+	}
+	.tmsht_ts_legends_table tbody td {
+		width: 100% !important;
+		padding: 5px 0;
+	}
+	.tmsht_ts_legends_table tbody td:before {
+		display: inline-block;
+		position: relative;
+		content: attr(data-column-title);
+		min-width: 100px;
+		padding: 0 5px;
+	}
+	.tmsht_format_i18n {
+		width: 100% !important;
+	}
+	.tmsht_format_i18n td {
+		display: table-cell;
+	}
+}
+@media screen and  ( max-width: 1210px ) and ( min-width: 783px ) {
+	.wp-picker-holder{
+		position: absolute;
+	}
+}
